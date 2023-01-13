@@ -5,12 +5,12 @@ package com.bridgelabz.daytwoprac;
 
 public class Person {
 
-	float height_cm;	//	height can be in decimal
-	String color;	
-	boolean long_hair;	//whether have long hair or not
+	float heightCm;	//	height can be in decimal	
+	boolean longHair;	//whether have long hair or not
 	char gender;	// used only for 'M' or 'F'
+	String color;
 	String build;
-	String mobileno; // stored in string we don't have any use in calculation
+	String mobileNo; // stored in string we don't have any use in calculation
 	
 	
 	public static void main(String[] args) {
@@ -18,67 +18,67 @@ public class Person {
 		Person ram=new Person();	//	creating distinct objects of class "Person" to call variables
 		Person rohini=new Person();
 		Person mayank=new Person();
-		Person naaz_joshi=new Person();
+		Person naazJoshi=new Person();
 
 //Ram		
 		System.out.println("::  Person Name -> 'RAM'  ::");		
 		ram.build="Athletic";	//	assigning features to variable for distinct objects for unique features
 		ram.color="Black";
 		ram.gender='M';
-		ram.height_cm=197.59f;
-		ram.long_hair=true;
-		ram.mobileno="8921xxxxxx";
+		ram.heightCm=197.59f;
+		ram.longHair=true;
+		ram.mobileNo="8921xxxxxx";
 		System.out.println("Person's Build :: "+ram.build+'\n'+
 				"Person's Color :: "+ram.color+'\n'+
 				"Person's Gender :: "+ram.gender+'\n'+
-				"Person's Height :: "+ram.height_cm+'\n'+
-				"Person's Mobile_Number :: "+ram.mobileno+'\n'+
-				"Do Person have Long_Hairs :: "+ram.long_hair);
+				"Person's Height :: "+ram.heightCm+'\n'+
+				"Person's Mobile_Number :: "+ram.mobileNo+'\n'+
+				"Do Person have longHairs :: "+ram.longHair);
 
 //Rohini		
 		System.out.println('\n'+"::  Person Name -> 'ROHINI'  ::");
 		rohini.build="Lean";
 		rohini.color="Asian_fair";
 		rohini.gender='F';
-		rohini.height_cm=164.75f;
-		rohini.long_hair=true;
-		rohini.mobileno="9292xxxxxx";
+		rohini.heightCm=164.75f;
+		rohini.longHair=true;
+		rohini.mobileNo="9292xxxxxx";
 		System.out.println("Person's Build :: "+rohini.build+'\n'+
 				"Person's Color :: "+rohini.color+'\n'+
 				"Person's Gender :: "+rohini.gender+'\n'+
-				"Person's Height :: "+rohini.height_cm+'\n'+
-				"Person's Mobile_Number :: "+rohini.mobileno+'\n'+
-				"Do Person have Long_Hairs :: "+rohini.long_hair);
+				"Person's Height :: "+rohini.heightCm+'\n'+
+				"Person's Mobile_Number :: "+rohini.mobileNo+'\n'+
+				"Do Person have longHairs :: "+rohini.longHair);
 		
 //Mayank
 		System.out.println('\n'+"::  Person Name -> 'MAYANK'  ::");
 		mayank.build="Obese";
 		mayank.color="Brown";
 		mayank.gender='M';
-		mayank.height_cm=175.6f;
-		mayank.long_hair=false;
-		mayank.mobileno="8465xxxxxx";
+		mayank.heightCm=175.6f;
+		mayank.longHair=false;
+		mayank.mobileNo="8465xxxxxx";
 		System.out.println("Person's Build :: "+mayank.build+'\n'+
 				"Person's Color :: "+mayank.color+'\n'+
 				"Person's Gender :: "+mayank.gender+'\n'+
-				"Person's Height :: "+mayank.height_cm+'\n'+
-				"Person's Mobile_Number :: "+mayank.mobileno+'\n'+
-				"Do Person have Long_Hairs :: "+mayank.long_hair);
+				"Person's Height :: "+mayank.heightCm+'\n'+
+				"Person's Mobile_Number :: "+mayank.mobileNo+'\n'+
+				"Do Person have longHairs :: "+mayank.longHair);
 	
-//Naaz_Joshi
+//naazJoshi
 		System.out.println('\n'+"::  Person Name -> 'NAAZ JOSHI'  ::");
-		naaz_joshi.build="Athletic";
-		naaz_joshi.color="Fair";
-		naaz_joshi.gender='T';
-		naaz_joshi.height_cm=178f;
-		naaz_joshi.long_hair=true;
-		naaz_joshi.mobileno="9258xxxxxx";
-		System.out.println("Person's Build :: "+naaz_joshi.build+'\n'+
-				"Person's Color :: "+naaz_joshi.color+'\n'+
-				"Person's Gender :: "+naaz_joshi.gender+'\n'+
-				"Person's Height :: "+naaz_joshi.height_cm+'\n'+
-				"Person's Mobile_Number :: "+naaz_joshi.mobileno+'\n'+
-				"Do Person have Long_Hairs :: "+naaz_joshi.long_hair);
+		naazJoshi.build="Athletic";
+		naazJoshi.color="Fair";
+		naazJoshi.gender='T';
+		naazJoshi.heightCm=178f;
+		naazJoshi.longHair=true;
+		naazJoshi.mobileNo="9258xxxxxx";
+		System.out.println("Person's Build :: "+naazJoshi.build+'\n'+
+				"Person's Color :: "+naazJoshi.color+'\n'+
+				"Person's Gender :: "+naazJoshi.gender+'\n'+
+				"Person's Height :: "+naazJoshi.heightCm+'\n'+
+				"Person's Mobile_Number :: "+naazJoshi.mobileNo+'\n'+
+				"Do Person have longHairs :: "+naazJoshi.longHair);
 		
 	}
 

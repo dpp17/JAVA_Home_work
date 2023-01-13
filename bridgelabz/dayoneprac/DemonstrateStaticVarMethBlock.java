@@ -7,7 +7,7 @@ public class DemonstrateStaticVarMethBlock {
 	
 	public static void main(String[] args) { //Main_method
 		
-		System.out.println(number);
+		System.out.println("Integer :: "+number);
 		
 	} //blocks
 

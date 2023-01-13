@@ -5,82 +5,82 @@ package com.bridgelabz.daytwoprac;
 
 public class Animal {
 	byte pedalism;	//	number of legs they walk on < 127
-	float lenght_cm;	//	height can be in decimal
-	String typeofvore;	// string_input
+	float lenghtCm;	//	height can be in decimal
+	String typeOfVore;	// string_input
 	String gender;	//	string_input > 16-bit
 	String sound;	//	string_input > 16-bit
 	
 	public static void main(String[] args) {
 		Animal tiger = new Animal();	//	creating distinct objects of class "Animal" to call variables
 		Animal giraffe = new Animal();
-		Animal reticulatedpython = new Animal();
+		Animal reticulatedPython = new Animal();
 		Animal kangaroo= new Animal();
 		Animal sakura= new Animal();
 
 		System.out.println("::  TIGER  ::");//tiger
 		tiger.gender="Male";	//	assigning features to variable for distinct objects for unique features
-		tiger.lenght_cm=305f;
+		tiger.lenghtCm=305f;
 		tiger.pedalism=4;
 		tiger.sound="Roar";
-		tiger.typeofvore="Carnivore";
+		tiger.typeOfVore="Carnivore";
 		
 		System.out.println("Gender :: "+tiger.gender+'\n'+
-				"Length of animal(in_cm) :: "+tiger.lenght_cm+'\n'+
+				"Length of animal(in_cm) :: "+tiger.lenghtCm+'\n'+
 				"Pedalism :: "+tiger.pedalism+'\n'+
 				"Sound made by them :: "+tiger.sound+'\n'+
-				"Type_of_Vore :: "+tiger.typeofvore);
+				"Type_of_Vore :: "+tiger.typeOfVore);
 		
 		System.out.println('\n'+"::  GIRAFFE  ::");//giraffe
 		giraffe.gender="Male";
-		giraffe.lenght_cm=550f;
+		giraffe.lenghtCm=550f;
 		giraffe.pedalism=4;
 		giraffe.sound="Hum";
-		giraffe.typeofvore="Herbivore";
+		giraffe.typeOfVore="Herbivore";
 		
 		System.out.println("Gender :: "+giraffe.gender+'\n'+
-				"Length of animal(in_cm) :: "+giraffe.lenght_cm+'\n'+
+				"Length of animal(in_cm) :: "+giraffe.lenghtCm+'\n'+
 				"Pedalism :: "+giraffe.pedalism+'\n'+
 				"Sound made by them :: "+giraffe.sound+'\n'+
-				"Type_of_Vore :: "+giraffe.typeofvore);
+				"Type_of_Vore :: "+giraffe.typeOfVore);
 		
-		System.out.println('\n'+"::  RETICULATED_PYTHON  ::");//reticulatedpython
-		reticulatedpython.gender="Male";
-		reticulatedpython.lenght_cm=767.5f;
-		reticulatedpython.pedalism=0;
-		reticulatedpython.sound="Hiss";
-		reticulatedpython.typeofvore="Carnivore";
+		System.out.println('\n'+"::  RETICULATED_PYTHON  ::");//reticulatedPython
+		reticulatedPython.gender="Male";
+		reticulatedPython.lenghtCm=767.5f;
+		reticulatedPython.pedalism=0;
+		reticulatedPython.sound="Hiss";
+		reticulatedPython.typeOfVore="Carnivore";
 		
-		System.out.println("Gender :: "+reticulatedpython.gender+'\n'+
-				"Length of animal(in_cm) :: "+reticulatedpython.lenght_cm+'\n'+
-				"Pedalism :: "+reticulatedpython.pedalism+'\n'+
-				"Sound made by them :: "+reticulatedpython.sound+'\n'+
-				"Type_of_Vore :: "+reticulatedpython.typeofvore);
+		System.out.println("Gender :: "+reticulatedPython.gender+'\n'+
+				"Length of animal(in_cm) :: "+reticulatedPython.lenghtCm+'\n'+
+				"Pedalism :: "+reticulatedPython.pedalism+'\n'+
+				"Sound made by them :: "+reticulatedPython.sound+'\n'+
+				"Type_of_Vore :: "+reticulatedPython.typeOfVore);
 		
 		System.out.println('\n'+"::  KANGAROO  ::");//kangaroo
 		kangaroo.gender="Male";
-		kangaroo.lenght_cm=244.9f;
+		kangaroo.lenghtCm=244.9f;
 		kangaroo.pedalism=2;
 		kangaroo.sound="Chortle";
-		kangaroo.typeofvore="Herbivore";
+		kangaroo.typeOfVore="Herbivore";
 		
 		System.out.println("Gender :: "+kangaroo.gender+'\n'+
-				"Length of animal(in_cm) :: "+kangaroo.lenght_cm+'\n'+
+				"Length of animal(in_cm) :: "+kangaroo.lenghtCm+'\n'+
 				"Pedalism :: "+kangaroo.pedalism+'\n'+
 				"Sound made by them :: "+kangaroo.sound+'\n'+
-				"Type_of_Vore :: "+kangaroo.typeofvore);
+				"Type_of_Vore :: "+kangaroo.typeOfVore);
 
 		System.out.println('\n'+"::  HUMAN_SAKURA  ::");//Sakura
 		sakura.gender="Female";
-		sakura.lenght_cm=172.5f;
+		sakura.lenghtCm=172.5f;
 		sakura.pedalism=2;
 		sakura.sound="Talk";
-		sakura.typeofvore="Omnivore";
+		sakura.typeOfVore="Omnivore";
 		
 		System.out.println("Gender :: "+sakura.gender+'\n'+
-				"Length of animal(in_cm) :: "+sakura.lenght_cm+'\n'+
+				"Length of animal(in_cm) :: "+sakura.lenghtCm+'\n'+
 				"Pedalism :: "+sakura.pedalism+'\n'+
 				"Sound made by them :: "+sakura.sound+'\n'+
-				"Type_of_Vore :: "+sakura.typeofvore);
+				"Type_of_Vore :: "+sakura.typeOfVore);
 	}
 
 }

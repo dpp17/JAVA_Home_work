@@ -4,13 +4,13 @@ package com.bridgelabz.dayoneprac;
 public class SumCommandLineArguments {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		int num1 = Integer.parseInt(args[0]);	//used to convert string to integer
-		int mun = Integer.parseInt(args[1]);
+		int num2 = Integer.parseInt(args[1]);
 		
-		int Sum=num1 + mun;
+		int sum=num1 + num2;
 				
-		System.out.println("Sum :: "+Sum);
+		System.out.println("Sum :: "+ sum);
 	
 	}
 
