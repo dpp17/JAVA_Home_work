@@ -4,6 +4,7 @@ package com.bridgelabz.daytwoprac;
 									//class is a BLUEPRINT
 
 public class Animal {
+	
 	byte pedalism;	//	number of legs they walk on < 127
 	float lenghtCm;	//	height can be in decimal
 	String typeOfVore;	// string_input

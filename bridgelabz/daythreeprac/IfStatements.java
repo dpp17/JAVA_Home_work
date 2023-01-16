@@ -42,8 +42,8 @@ public class IfStatements {
 
 	public static void main(String[] args) {
 
-		int x = 10;  
-		int y = 12;
+		byte x = 10;  
+		byte y = 12;
 		
 		//simple if
 		if (y>x) {

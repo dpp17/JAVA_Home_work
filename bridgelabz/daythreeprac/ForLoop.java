@@ -50,9 +50,9 @@ public class ForLoop {
 	public static void main(String[] args) {
 		
 		//for_loop
-		int sum = 0;  
-		for(int j = 1; j<=10; j++) {  
-		sum = sum + j;  
+		byte sum = 0;  
+		for(byte j = 1; j<=10; j++) {  
+		sum = (byte)(sum + j);  
 		}  
 		System.out.println("The sum of first 10 natural numbers is " + sum);  
 		
@@ -74,19 +74,19 @@ public class ForLoop {
 		}   
 		
 		//while_loop
-		int i = 0;    
+		byte i = 0;    
 		System.out.println("Printing the list of first 10 even numbers \n");    
 		while(i<=10) {    
 		System.out.println(i);    
-		i = i + 2;    
+		i = (byte)(i + 2);    
 		}
 		
 		//do_while_loop
-		int j = 0;    
+		byte j = 0;    
 		System.out.println("Printing the list of first 10 even numbers \n");    
 		do {    
 		System.out.println(j);
-		j = j + 2;    
+		j = (byte)(j + 2);    
 		}while(j<=10);   
 		
 	}
